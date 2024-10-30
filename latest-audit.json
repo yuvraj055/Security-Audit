@@ -1,0 +1,108 @@
+{
+  "timestamp": "2024-10-30T04:38:24.699Z",
+  "hostname": "WS-263",
+  "categories": [
+    {
+      "name": "System Information",
+      "checks": [
+        {
+          "name": "Operating System",
+          "description": "Windows 10.0.22631 (x64)",
+          "status": "info"
+        },
+        {
+          "name": "CPU Usage",
+          "description": "Current CPU load: 9%",
+          "status": "good"
+        },
+        {
+          "name": "Memory Usage",
+          "description": "Used: 8GB of 16GB",
+          "status": "good"
+        }
+      ]
+    },
+    {
+      "name": "Security Settings",
+      "checks": [
+        {
+          "name": "Windows Defender",
+          "description": "Unable to determine Windows Defender status",
+          "status": "critical"
+        },
+        {
+          "name": "Firewall Profiles",
+          "description": "Domain: Disabled\nPrivate: Disabled\nPublic: Disabled",
+          "status": "critical"
+        },
+        {
+          "name": "Windows Updates",
+          "description": "Unable to check Windows Updates",
+          "status": "good"
+        }
+      ]
+    },
+    {
+      "name": "Network Security",
+      "checks": [
+        {
+          "name": "Open Ports",
+          "description": "Listening Ports: Unknown\nActive Connections: Unknown",
+          "status": "good"
+        },
+        {
+          "name": "Network Adapters",
+          "description": "Active Adapters: 2",
+          "status": "info"
+        },
+        {
+          "name": "DNS Cache",
+          "description": "Cached DNS Entries: Unknown",
+          "status": "info"
+        }
+      ]
+    },
+    {
+      "name": "User Security",
+      "checks": [
+        {
+          "name": "Administrator Accounts",
+          "description": "Total Admin Accounts: Unknown",
+          "status": "good"
+        },
+        {
+          "name": "Local Users",
+          "description": "Total Local Users: Unknown",
+          "status": "info"
+        },
+        {
+          "name": "Password Policy",
+          "description": "Unable to retrieve password policy",
+          "status": "info"
+        }
+      ]
+    },
+    {
+      "name": "Software Security",
+      "checks": [
+        {
+          "name": "Installed Software",
+          "description": "Total Applications: Unknown",
+          "status": "info"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "criticalIssues": 2,
+    "warnings": 0,
+    "passedChecks": 5,
+    "totalChecks": 7
+  },
+  "details": {
+    "installedSoftware": [],
+    "networkSecurity": null,
+    "userSecurity": null,
+    "defenderDetails": null
+  }
+}
